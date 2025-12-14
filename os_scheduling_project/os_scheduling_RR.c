@@ -9,8 +9,8 @@
 #include <errno.h>
 
 #define NUM_CHILDREN 10
-#define DEFAULT_TIME_QUANTUM 5   // 실험시 1, 2, 3, 4, 5 바꿔가며 수행
-#define DEFAULT_SEED 82  // 고정 시드 기본값 실험시(42, 52, 62, 72, 82) 바꿔가며 반복 수행
+#define DEFAULT_TIME_QUANTUM 1   // 실험시 1, 2, 3, 4, 5 바꿔가며 수행
+#define DEFAULT_SEED 42  // 고정 시드 기본값 실험시(42, 52, 62, 72, 82) 바꿔가며 반복 수행
 
 // 프로세스 상태 정의
 typedef enum {
